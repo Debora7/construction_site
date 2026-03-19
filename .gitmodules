@@ -2,3 +2,8 @@
 	path = OCA/l10n-romania
 	url = git@github.com:OCA/l10n-romania.git
 	branch = 19.0
+
+[submodule "Debora7/sales-advance"]
+	path = Debora7/sales-advance
+	url = git@github.com:Debora7/sales-advance.git
+	branch = 19.0
