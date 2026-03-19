@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="equipment_excavator" model="maintenance.equipment">
+            <field name="name">Excavator Mediu</field>
+            <field name="cost">150.0</field>
+            <field name="sale_hour_price">250.0</field>
+        </record>
+        <record id="equipment_crane" model="maintenance.equipment">
+            <field name="name">Macara de șantier</field>
+            <field name="cost">250.0</field>
+            <field name="sale_hour_price">400.0</field>
+        </record>
+    </data>
+</odoo>

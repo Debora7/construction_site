@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="hr_department_construction" model="hr.department">
+            <field name="name">Departament Șantier</field>
+        </record>
+        <record id="hr_department_management" model="hr.department">
+            <field name="name">Departament Management Proiect</field>
+        </record>
+
+        <record id="hr_employee_worker1" model="hr.employee">
+            <field name="name">Muncitor Demo 1</field>
+            <field name="department_id" ref="hr_department_construction"/>
+            <field name="work_email">muncitor1@example.com</field>
+            <field name="hourly_cost">25.0</field> </record>
+        <record id="hr_employee_worker2" model="hr.employee">
+            <field name="name">Muncitor Demo 2</field>
+            <field name="department_id" ref="hr_department_construction"/>
+            <field name="work_email">muncitor2@example.com</field>
+            <field name="hourly_cost">28.0</field>
+        </record>
+        <record id="hr_employee_manager" model="hr.employee">
+            <field name="name">Manager Proiect Demo</field>
+            <field name="department_id" ref="hr_department_management"/>
+            <field name="work_email">manager.proiect@example.com</field>
+            <field name="hourly_cost">50.0</field>
+        </record>
+
+    </data>
+</odoo>
